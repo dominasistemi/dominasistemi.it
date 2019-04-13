@@ -1,3 +1,15 @@
+// Global variables
+@import 'variables';
+
+// Bootstrap
 @import '~bootstrap/scss/bootstrap-reboot';
 @import '~bootstrap/scss/bootstrap';
 @import '~bootstrap/scss/bootstrap-grid';
+
+// Components
+@import 'components/constraint';
+@import 'components/logo';
+
+body {
+  background: $off-white;
+}
