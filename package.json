@@ -1,0 +1,12 @@
+{
+  "name": "dominasistemi.it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aldesantis/dominasistemi.it.git",
+  "author": "Alessandro Desantis <desa.alessandro@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "broccoli": "^2.3.0"
+  }
+}
