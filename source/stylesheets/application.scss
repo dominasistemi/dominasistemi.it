@@ -6,10 +6,9 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~bootstrap/scss/bootstrap-grid';
 
+// Global layout styles
+@import 'layout';
+
 // Components
 @import 'components/constraint';
 @import 'components/logo';
-
-body {
-  background: $off-white;
-}
