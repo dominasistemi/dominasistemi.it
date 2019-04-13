@@ -9,5 +9,5 @@ activate(:external_pipeline,
   latency: 1,
 )
 
-ignore 'source/javascripts'
-ignore 'source/stylesheets'
+ignore 'stylesheets/*'
+ignore 'javascripts/*'
