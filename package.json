@@ -5,6 +5,11 @@
   "author": "Alessandro Desantis <desa.alessandro@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "lint": "eslint .; sass-lint -q -v",
+    "serve": "bundle exec middleman server",
+    "build": "bundle exec middleman build"
+  },
   "dependencies": {
     "autoprefixer": "^9.5.1",
     "bootstrap": "^4.3.1",
