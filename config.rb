@@ -9,5 +9,7 @@ activate(:external_pipeline,
   latency: 1,
 )
 
+activate :directory_indexes
+
 ignore 'stylesheets/*'
 ignore 'javascripts/*'
